@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #f8fafc;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #f8fafc;
+  background-color: #020617;
+ 
+}
+img{
+  
+  width: 95%;
+  border-radius: 20rem;
+}
+.nav {
+  width: 100vw;
+  height: 4.5rem;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+.nav__container {
+  border: 1px solid white;
+  width: 80vw;
+  margin: 0 auto;
+}
+.nav__items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4.5rem;
+}
+.logo {
+  margin-right: auto;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.a_txt {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.homeSection{
+  border: 1px solid white;
+  width: 100vw;
+  height: 85vh;
+  margin-top:1.2rem;
+}
+.home__container{
+   border: 1px solid white;
+   width: 80vw;
+  margin: 3rem auto;
+}
+.home__img{
+  width: 11rem;
+  
+  
+}
+.home__container{
+  
+  display: grid;
+  place-items: center;
+}
+.highlight__txt{
+  color: #2563eb;
+  font-size: 1.9rem;
+  margin: 0.8rem auto ;
+}
+.main__txt{
+  font-size: 1.4rem;
+  font-weight: 650;
+  text-align: center;
+  line-height: 2.6rem;
+}
+.hamBerger{
+  width: 2.2rem;
+}
+@media (max-width:845px) {
+  .logo{
+    font-size: 2rem;
+  }
+  .nav {
+  width: 98.6vw;
+  height: 4.5rem;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+.nav__container {
+  border: 1px solid white;
+  width: 85vw;
+  margin: 0 auto;
+}
+.hide {
+  display: none;
+}
+  .home__img{
+  width: 11rem;
+  
+  
+}
+.homeSection{
+  border: 1px solid white;
+  width: 98.5vw;
+  height: 88.9vh;
+  margin-top:1.2rem;
+}
+.home__container{
+   border: 1px solid white;
+   width: 85vw;
+  margin: 5rem auto;
+}
+.home__txt{
+  margin: 1rem auto;
+}
+.main__txt{
+ 
+  font-size: 0.9rem;
+  font-weight: 650;
+  line-height: 1.5rem;
+}
+.highlight__txt{
+  font-size: 2rem;
+  margin: 0.8rem auto ;
+}
+
+}
